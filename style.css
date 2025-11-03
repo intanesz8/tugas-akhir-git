@@ -8,7 +8,7 @@
 
 /* Header */
 header {
-  background: linear-gradient(90deg, #a64edb, #c77dff);
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
   color: white;
   padding: 15px 0;
 }
@@ -49,15 +49,15 @@ nav a:hover {
 .section {
   padding: 60px 20px;
   text-align: center;
-  background: linear-gradient(to bottom, #fff, #f9e6ff);
+  background: linear-gradient(to bottom, #fff, #e0f7ff);
 }
 
 .section:nth-child(even) {
-  background: linear-gradient(to bottom, #f9e6ff, #fff);
+  background: linear-gradient(to bottom, #e0f7ff, #fff);
 }
 
 .section h2 {
-  color: #8000c7;
+  color: #0077b6;
   margin-bottom: 15px;
 }
 
@@ -78,7 +78,7 @@ nav a:hover {
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid #a64edb;
+  border: 5px solid #00b4d8;
 }
 
 .beranda-text {
@@ -87,7 +87,7 @@ nav a:hover {
 }
 
 .beranda-text h2 {
-  color: #8000c7;
+  color: #0077b6;
   margin-bottom: 12px;
 }
 
@@ -113,8 +113,8 @@ nav a:hover {
 .card {
   width: 260px;
   background-color: #fff;
-  border: 1px solid #e0d4f7;
-  border-left: 6px solid #a64edb;
+  border: 1px solid #cfe8ff;
+  border-left: 6px solid #00b4d8;
   border-radius: 6px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
   text-align: left;
@@ -131,7 +131,7 @@ nav a:hover {
 }
 
 .card h3 {
-  color: #8000c7;
+  color: #0077b6;
   margin: 8px 0;
   font-size: 18px;
 }
@@ -145,7 +145,7 @@ nav a:hover {
 
 .card:hover {
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
-  background-color: #faf5ff;
+  background-color: #e6faff;
 }
 
 /* Kontak */
@@ -159,7 +159,7 @@ nav a:hover {
 }
 
 #kontak a {
-  color: #8000c7;
+  color: #0077b6;
   text-decoration: none;
 }
 
@@ -175,7 +175,7 @@ nav a:hover {
   padding: 25px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  border-left: 5px solid #a64edb;
+  border-left: 5px solid #00b4d8;
 }
 
 .form-group {
@@ -185,7 +185,7 @@ nav a:hover {
 .form-group label {
   display: block;
   font-weight: 600;
-  color: #8000c7;
+  color: #0077b6;
   margin-bottom: 6px;
 }
 
@@ -202,13 +202,13 @@ nav a:hover {
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #a64edb;
+  border-color: #00b4d8;
 }
 
 button[type="submit"] {
   display: block;
   width: 100%;
-  background-color: #a64edb;
+  background-color: #0077b6;
   color: white;
   border: none;
   padding: 12px;
@@ -218,12 +218,12 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #8c3ad1;
+  background-color: #0096c7;
 }
 
 /* Footer */
 footer {
-  background: #a64edb;
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
   color: white;
   text-align: center;
   padding: 10px;
