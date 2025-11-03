@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Intan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Intan Eka Safitri</h1>
+            <nav>
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#proyek">Proyek</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Beranda -->
+    <section id="beranda" class="section">
+        <div class="beranda-container">
+            <img src="intanes.jpeg" alt="Foto Intan" class="profile-img">
+            <div class="beranda-text">
+                <h2>Halo, Saya Intan!</h2>
+                <p>
+                    Saya memiliki ketertarikan pada dunia digital, khususnya dalam membangun tampilan web yang nyaman dan menarik.
+                    Setiap proyek kuliah yang saya kerjakan membantu saya memahami bagaimana ide bisa diubah menjadi karya nyata.
+                    Website ini adalah langkah awal saya untuk terus belajar dan berkembang di bidang web development.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Proyek Kuliah-->
+    <section id="proyek" class="section">
+        <h2>Proyek Kuliah</h2>
+        <div class="projects">
+            <div class="card">
+                <img src="webbuku.png" alt="Proyek 1">
+                <h3>Website Buku</h3>
+                <p>Website CRUD sederhana untuk manajemen daftar buku menggunakan PHP dan MySQL</p>
+            </div>
+            <div class="card">
+                <img src="SmartHome_ES.jpeg" alt="Proyek 2">
+                <h3>IoT: Smarthome</h3>
+                <p>Proyek IoT rumah pintar menggunakan NodeMCU dan Blynk untuk memantau lingkungan sekitar</p>
+            </div>
+            <div class="card">
+                <img src="TBO_DFA.jpeg" alt="Proyek 3">
+                <h3>Filter Komentar DFA</h3>
+                <p>Program berbasis teori automata yang mendeteksi kata kasar menggunakan algoritma DFA.</p>
+            </div>
+            <div class="card">
+                <img src="semantikweb.png" alt="Proyek 4">
+                <h3>Web Service</h3>
+                <p>Perancangan web service linked data untuk data sekolah di kota Bandar Lampung berbasis open data dan PostgreSQL</p>
+            </div>
+            <div class="card">
+                <img src="unibike.png" alt="Proyek 5">
+                <h3>UNIBIKE: Unila Bicycle</h3>
+                <p>Pengembangan sistem peminjaman sepeda di lingkungan Universitas Lampung berbasis aplikasi mobile</p>
+            </div>
+            <div class="card">
+                <img src="hitayo.png" alt="Proyek 6">
+                <h3>Hi Tayo!</h3>
+                <p>Rancangan sistem pelacakan bus kampus yang berguna untuk melakukan pelacakan terhadap
+                   bus kampus di Universitas Lampung  </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Kontak -->
+    <section id="kontak" class="section">
+        <h2>Kontak</h2>
+        <p>Hubungi saya melalui:</p>
+        <ul>
+            <li>Email: <a href="mailto:intanekasafitri23@gmail.com">intanekasafitri23@gmail.com</a></li>
+            <li>Instagram: <a href="https://instagram.com" target="_blank">@intaanes</a></li>
+            <li>GitHub: <a href="https://github.com" target="_blank">github.com/intanesz8</a></li>
+        </ul>
+    </section>
+        <hr>
+
+    <!-- Form Komentar -->
+    <section id="komentar" class="section">
+        <h2>|Tinggalkan Komentar|</h2>
+        <p>Silakan tulis nama dan pesan Kamu di bawah sini!</p>
+        <form class="form-komentar" action="#" method="post">
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div class="form-group">
+                <label for="pesan">Komentar:</label>
+                <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis komentar Anda di sini..." required></textarea>
+            </div>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2025 Intan Eka Safitri</p>
+    </footer>
+</body>
+</html>
